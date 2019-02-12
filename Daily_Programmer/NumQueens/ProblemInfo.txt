@@ -19,6 +19,6 @@ Example:
 This is the board I used based on the int array boardLayout.  Each value on the int array shows which column the queen is in.
 While each index of the array shows which row the queen is on.
 
-For finding the diagonal intersection I used the formula |x1−x2|=|y1−y2|   Where x would be the value stored in the index,
+For finding the diagonal intersection I used the two-point formula |x1−x2|=|y1−y2|   Where x would be the value stored in the index,
 and y would be the index position of the array.  The program runs at O(N2), so I would like to come back to this problem and optimize
 it to run at O(N).
