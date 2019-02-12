@@ -1,0 +1,3 @@
+#INFO
+
+List of eulers problems I've managed to solve.
