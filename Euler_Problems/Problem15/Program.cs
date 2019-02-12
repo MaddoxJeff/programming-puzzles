@@ -7,7 +7,6 @@ namespace Eulerprob15
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             BigInteger gridX = 20;
             BigInteger gridY = 20;
             Console.WriteLine(lattice(gridX, gridY));
