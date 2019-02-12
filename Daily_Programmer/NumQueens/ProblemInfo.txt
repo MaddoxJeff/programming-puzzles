@@ -13,6 +13,9 @@ Example:
 1  . . Q . Q . . .
    a b c d e f g h
    
+   
+------------------------------------------------------------------------------------------------------------------------------------------
+   
 This is the board I used based on the int array boardLayout.  Each value on the int array shows which column the queen is in.
 While each index of the array shows which row the queen is on.
 
