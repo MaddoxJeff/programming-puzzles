@@ -10,4 +10,4 @@ I used two different methods to solve this problem.
 The lattice method which uses the binomial coefficient (mn) := m!/n!(m-n)! 
 Then the factorial method which returns the factorial of a given integer.
 
-The factorial method would return values to large for int or long, so I ended up using BigInteger.
+The factorial method would return values too large for int or long, so I ended up using BigInteger.
