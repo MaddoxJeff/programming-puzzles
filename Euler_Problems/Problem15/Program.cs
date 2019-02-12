@@ -26,7 +26,6 @@ namespace Eulerprob15
                 num = num - 1;
             }
            return res;
-        }
-        
+        }        
     }
 }
