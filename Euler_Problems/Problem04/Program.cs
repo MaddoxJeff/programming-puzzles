@@ -13,7 +13,7 @@ namespace EulerProb04
             int result = 0;
             int temp = 0;
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            for (int i = 10; i < 1000; i++)
+            for (int i = 100; i < 1000; i++)
             {
                 for(int k = 0 + i; k < 1000; k++)
                 {
