@@ -1,0 +1,6 @@
+#INFO
+
+This was a project assigned me during a recent interview.  The program should request a widgets dimensions "X,Y,Z"
+Select parts that price will be pulled from a txt file.
+Then display the new price from the parts that are selected, and from the dimensions.
+A database should also be updated with information from the user.
