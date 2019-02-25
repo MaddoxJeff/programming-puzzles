@@ -1,7 +1,7 @@
 # Portfolio work
 
 This is where I'm displaying projects I've completed.
-Each folder contains differnt types of problems.
+ Each folder contains differnt types of problems.
 
 
 Daily_Programmer -
