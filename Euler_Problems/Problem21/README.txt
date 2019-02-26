@@ -8,7 +8,7 @@ The proper divisors of 284 are 1, 2, 4, 71 and 142; so d(284) = 220.
 
 Evaluate the sum of all the amicable numbers under 10000.
 
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 For this project I used a method called "divisor" which would return the sum of all numbers divisble from the integer being passed.
 In the main, I used a for loop to go through all numbers 1 - 10000 and two temp values to test if the values were amicable.
