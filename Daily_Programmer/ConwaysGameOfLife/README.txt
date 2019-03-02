@@ -28,13 +28,22 @@ A cell get's passed to aCheckNeighbor if it's alive, and dCheckNeighbor if it's 
 Inside each of these methods is a while loop that checks the surrounding 8 cells in 3 loop itterations.
 Here is a visual example if the cell we are examining is [2,2] let's call it [n,m]
 
-[1,1] [2,1] [3,1]         [1,1] [2,1] [3,1] 
-[1,2] [2,2] [3,2]   -->   [1,2] [n,m] [3,2]
-[1,3] [2,3] [3,3]         [1,3] [2,3] [3,3]
+[1,1] [2,1] [3,1]
+[1,2] [n,m] [3,2]
+[1,3] [2,3] [3,3]
 
 the m value stays the same throughout the top, middle and bottom.
 I started off the loop at (m-1) as it increments through each loop.
 Three conditional statements are asked for the left, middle, and right OR (n-1),(n+1), and (n).
+
+                      top row                         
+[1,1] [2,1] [3,1]      -->        [(n-1),m] [n,m] [(n+1),m]   m++  
+                     middle row 
+[1,2] [n,m] [3,2]      -->        [(n-1),m] [n,m] [(n+1),m]   m++
+                     bottom row
+[1,3] [2,3] [3,3]      -->        [(n-1),m] [n,m] [(n+1),m]   m++         
+
+
 values for "alive" and "dead" are counted during this loop.
 A value for [n,m] is added during this loop, there is a statement at the end to delete this extra "alive" or "dead".
 Following the rules of Conway's Game of Life, this method will return a '.' if dead, or '*' if alive.
