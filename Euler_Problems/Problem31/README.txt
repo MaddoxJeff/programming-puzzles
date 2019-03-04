@@ -11,7 +11,7 @@ How many different ways can £2 be made using any number of coins?
 -------------------------------------------------------------------------------------------------------------------------------
 
 Dynamic programming problems are always fun, which is why I picked this one out.
-The pences are in an array go through a method numOfWays which accepts an array and returns an int.
+The pences are in an array that go through a method "numOfWays" which accepts an array and returns an int.
 I created an int value "cap" to hold the max value we are allowed to reach.
 I also created a temp array to hold the new values.
 
@@ -19,3 +19,6 @@ The outer for loop go through the pence array's length starting from 0, examinin
 The inner for loop initializes a int "k" that's value is equal to pence[i].
 This loops through 1 - 200, -> 2 - 200, -> 5 - 200, -> 10 - 200, -> 20 - 200, -> 50 - 200, -> 100 - 200, -> 200-200.
 Through each loop values for temp array are updated if k or greater multiples of k add into the cap value being examined.
+This means lower elements of temp will be updated fewer times, with lower values.
+While higher elements of temp will be updated more frequently, and have larger values.
+The last element in the temp array will give you the number of ways.
