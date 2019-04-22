@@ -1,4 +1,0 @@
-var config = {
-   SKY_KEY : '37a66de95c083bf850d6c997a34191aa',
-   ZIP_KEY : 'dTOqa2Hsg7pPyYdlVfexivWireVmI0WrFzCw9WLNBVGLPEqQktJI0vGILabagKC7'
-}
